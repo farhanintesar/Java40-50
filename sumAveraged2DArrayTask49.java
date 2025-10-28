@@ -16,7 +16,7 @@ public class sumAveraged2DArrayTask49 {
              return 0;
          }
          int rows = numArr.length;
-         int cols = numArr[0].length;
+         int cols = numArr[0].length; //counting the elements of 2d array is important
 
          double size = rows * cols;
          return sum(numArr)/size;

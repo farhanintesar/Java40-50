@@ -1,5 +1,6 @@
 public class sumOfDiagonal2DArrayTask50 {
 
+
     public static void main (String[] args){
         System.out.println("Welcome to diagonal sum\n");
         int [][] numArr = ArrayUtility.input2DArray();
@@ -32,7 +33,7 @@ public class sumOfDiagonal2DArrayTask50 {
     public static long sumOfRightDiagonals(int[][] numArr){
         long sum = 0;
         int i = 0;
-        while (i < (numArr.length )) {  //numArr.length - 1  means last index
+        while (i < (numArr.length )) {  // (numArr.length - 1)  means last index
             int col = numArr.length -1 -i;
             sum += numArr[i][col] ;
             i++;
